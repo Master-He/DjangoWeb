@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  djangoweb:
+    build: DjangoWeb
+    ports:
+     - "8080:80"
+    image: "djangoweb_v1"
+
