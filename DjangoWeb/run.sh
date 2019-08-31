@@ -1,4 +1,6 @@
 #!/bin/bash
 
 python manage.py migrate
-python manage.py runserver 0.0.0.0:8080
+
+# can't use 8080 port, because 8080 is used by jenkins
+python manage.py runserver 0.0.0.0:80
