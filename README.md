@@ -10,7 +10,7 @@
 
 
 2019年8月31日
-    加入jenkins功能 ×
+    加入jenkins功能 √
     切换为django 生产模式 ×
     supervisor 监控wsgi和nginx ×
     数据库用mysql，需要对应数据卷 ×
