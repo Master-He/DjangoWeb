@@ -26,7 +26,7 @@ SECRET_KEY = '62aoldbd(%i&1)wuk5)fzdx%7wh0-8-rggyj^7&t4z$dnd0bv+'
 # 默认环境是True
 DEBUG = os.environ.get("production", "debug") == "debug"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
